@@ -1,0 +1,4 @@
+This is a sample document
+The OS may support docx, pptx, ppt, pdf and more in the future
+If you want to help with the development please read the docs!
+Docs is in B-OS/README.md
