@@ -1,0 +1,8 @@
+.idea/
+*.iml
+venv/
+env/
+.venv/
+ENV/
+__pycache__/
+password.txt
