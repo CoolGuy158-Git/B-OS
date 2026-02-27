@@ -6,3 +6,4 @@ env/
 ENV/
 __pycache__/
 password.txt
+System67/__pycache__ directory
