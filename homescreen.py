@@ -4,6 +4,7 @@ import os
 import runpy
 from PIL.ImageFile import ImageFile
 import time
+from System67.make_draggable import make_draggable_btn
 
 root = tk.Tk()
 root.attributes('-fullscreen', True)
@@ -30,6 +31,7 @@ for app_name in os.listdir(apps_folder):
         btn = tk.Button(root, image=icon_tk, command=lambda p=code_path: runpy.run_path(p))
         btn.image = icon_tk
         btn.place(x=x_offset, y=y_offset)
+        make_draggable_btn(btn)
         y_offset += 90
 
 taskbar_height = 40
